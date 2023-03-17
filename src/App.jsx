@@ -3,7 +3,7 @@ import coldBg from "./assets/cold.jpg";
 import Descriptions from "./components/Descriptions";
 import { useEffect, useState } from "react";
 import { getFormattedWeatherData } from "./weatherService";
-// import { BiFontSize, BiHeading } from "react-icons/bi";
+
 
 function App() {
   const [city, setCity] = useState("Paris");
@@ -47,7 +47,7 @@ function App() {
       <div className="overlay">
         {weather && (
           <div className="container">
-            <h1 style={{color: 'lightblue' }}>Weather App</h1>
+            <h4>Weather App</h4>
             <div className="section section__inputs">
               <input
                 onKeyDown={enterKeyPressed}

@@ -40,6 +40,11 @@
   border-style: none;
 }
 
+h4 {
+  color:rgb(189, 212, 216);
+  font-weight: 800;
+  font-size: 40px;
+}
 /* Top  */
 
 .section {
