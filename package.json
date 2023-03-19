@@ -1,6 +1,6 @@
 {
   "name": "weather-app",
-  "homepage": "https://anilkrrana.github.io/SIMBT_03-weather-app/",
+  "homepage": "https://anilkrrana.github.io/SIMBT_03-weather-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
