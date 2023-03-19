@@ -1,6 +1,6 @@
 :root {
-  --section-overlay: rgba(0, 0, 0, 0.7);
-  --background-overlay: rgba(0, 0, 0, 0.2)
+  --section-overlay: rgba(0, 0, 0, 0.4);
+  --background-overlay: rgba(0, 0, 0, 0);
 }
 
 * {
@@ -41,7 +41,7 @@
 }
 
 h4 {
-  color:rgb(189, 212, 216);
+  color:rgb(11, 14, 15);
   font-weight: 800;
   font-size: 40px;
 }
@@ -64,13 +64,16 @@ h4 {
 }
 
 .section__inputs>input {
-  border: 0.8px solid white;
+  border: 0.8px solid rgb(243, 243, 243);
   border-radius: 5rem;
   background-color: transparent;
-  color: white;
+  color: rgb(255, 245, 245);
   padding: 0.6rem;
   font-size: 18px;
   font-weight: 200;
+}
+.section__inputs>::placeholder {
+  color: aliceblue;
 }
 
 .section__inputs>input:focus {
@@ -88,7 +91,7 @@ h4 {
 
 .section__inputs>button:hover {
   cursor: pointer;
-  background-color: rgb(138, 123, 123);
+  background-color: rgb(124, 221, 195);
 }
 
 .icon {

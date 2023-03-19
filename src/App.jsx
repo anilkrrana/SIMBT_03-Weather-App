@@ -1,4 +1,4 @@
-import hotBg from "./assets/weather.jpg";
+import hotBg from "./assets/hot.jpg";
 import coldBg from "./assets/cold.jpg";
 import Descriptions from "./components/Descriptions";
 import { useEffect, useState } from "react";
@@ -18,7 +18,7 @@ function App() {
 
       // dynamic bg
       const threshold = units === "metric" ? 20 : 60;
-      if (data.temp <= threshold) setBg(coldBg);
+      if (data.temp <= threshold) setBg(hotBg);
       else setBg(hotBg);
     };
 
@@ -53,7 +53,7 @@ function App() {
                 onKeyDown={enterKeyPressed}
                 type="text"
                 name="city"
-                placeholder="Enter City..."
+                placeholder="Enter a City..."
               />
               <button onClick={(e) => handleUnitsClick(e)}>°F</button>
             </div>
